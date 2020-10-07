@@ -1,0 +1,46 @@
+.sidebar {
+  height: 100vh;
+  background-color: rgb(43, 45, 49);
+  margin: 0px;
+  padding: 0px;
+  /* background-color: black; */
+  border-right: 1px solid black;
+  width: 100%;
+  text-align: center;
+}
+
+.user-header {
+  text-align: center;
+  letter-spacing: 0.15rem;
+  font-weight: 500;
+  border-bottom: 2px solid white;
+}
+
+#user-header-brand {
+  margin-top: 0.25rem !important;
+  color: white;
+  font-size: 1.5625rem;
+  /* display: block; */
+  width: 100%;
+}
+
+.user-details {
+  padding-top: 2rem;
+  padding-left: 2rem;
+  text-align: center;
+}
+
+#user-avatar {
+  border-radius: 8px;
+  object-fit: contain;
+  width: 20%;
+  height: auto;
+}
+.user-info {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 30px;
+  text-align: center;
+  color: white;
+}
